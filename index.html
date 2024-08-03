@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <title>Sound Identification Web App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div class="cloudback">
+      <h1 class="tahogren">Clap, click, bell!</h1>
+    </div>
+    <hr><br>
+    <button id="the_note" class="btn btn-warning">Note: The aliens will dance according to the sound being made. Click
+      just does his
+      own thing sometimes though.</button> <br><br>
+      <label id="result_label">This is:</label><br>
+      <label id="confidence_label">I am sure</label><br>
+    <!--Aliens: -->
+    <img id="alien1" src="aliens-01.png" class="alien">
+    <img id="alien2" src="aliens-02.png" class="alien">
+    <img id="alien3" src="aliens-03.png" class="alien">
+    <img id="alien3" src="aliens-04.png" class="alien">
+    <br>
+    <button id="startButton" class="btn btn-success" onclick="startClassification();">Start!</button>
+
+    <div class="copy_right_footer">Made by R.S, Share with others!
+        <button style="margin-left: 40px;" onclick="myFunction()" id="copy-link" class="btn btn-info">Share</button>
+      </div>
+  </center>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

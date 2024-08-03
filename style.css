@@ -1,0 +1,42 @@
+.tahogren {
+    font-family: Tahoma;
+    color: green;
+}
+
+.cloudback {
+    background-color: azure;
+} 
+#the_note {
+    font-size: 20px;
+}
+
+body {
+    font-family: "Raleway", Tahoma;
+    background-color: #edf4ff;
+}
+
+.alien {
+    width: 300;
+    height: 300;
+}
+
+#startButton {
+    font-family: "Dosis", "Raleway", Tahoma;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size:large;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: azure;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #203026;
+    line-height: 2;
+    text-align:center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
